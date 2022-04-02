@@ -1,0 +1,657 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: "Avenir Next W01","avenir next",avenir,helvetica,arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.gun {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+
+.internetlogo {
+
+}
+
+.firstnavlogo {
+    width: 50px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.mainfirstnavlogo {
+    width: 50px;
+    margin-top: 15px;
+    display: flex;
+    padding-left: 30px;
+}
+
+.who {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+    font-size: large;
+}
+
+.who :hover {
+    transform: scale(1.1);
+}
+.navli {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+
+.actingnavbar-secondary {
+    word-spacing: 10px;
+}
+
+.navbar-secondary {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.navbar-secondary :hover {
+    color: rgb(228, 63, 3);
+}
+
+.secondnav{
+    background-color: rgb(219, 208, 208);
+    display: flex;
+    padding: 40px;
+    height: 40px;
+}
+
+.radlogo {
+    width: 200px;
+}
+
+.greynav {
+    display: flex;
+    padding-left: 100px;
+    float: left;
+}
+
+.greynav :hover {
+    transform: scale(1.0);
+    color: orangered;
+}
+
+.greydec {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.contact :hover {
+    transform: scale(1.2);
+}
+
+.contactbutton {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(207, 29, 29);
+    color: white;
+}
+
+.jumbotron {
+    height: 500px;
+    background-image: url(./customer-care-header.jpg);
+    display: flex; 
+    align-items: center;
+    padding-left: 100px;
+    color: white;
+}
+
+.jumbotext {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.btn-header {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(207, 29, 29);
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.btn-headerx :hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.text {
+    padding: 80px;
+    align-items: center;
+}
+
+.texth1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: lighter;
+}
+
+.when {
+    padding-top: 30px;
+}
+
+.element {
+    background-color: rgb(219, 208, 208);
+    height: 1800px;
+    
+}
+
+.elementcenter {
+    text-align: center;
+}
+
+.headsize {
+    font-size: 23px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.size {
+    font-size: 15px;
+    text-align: left;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.sizer {
+    font-size: 15px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.elementradial {
+    display: flex;
+    padding-left: 300px;
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.elementradial2 {
+    display: flex;
+    padding-left: 450px;
+    padding-top: 70px;
+    padding-right: 150px;
+}
+
+.selfelement {
+    width: 40%;
+}
+
+.mainselfelement {
+    width: 280px;
+}
+
+.improvementelement {
+    width: 40%;
+}
+
+.mainimprovementelement {
+    width: 280px;
+}
+
+.intelligenceelement {
+    width: 33.3%;
+}
+
+.mainintelligenceelement {
+    width: 280px;
+}
+
+.scalabilityelement {
+    width: 33.3%;
+}
+
+.mainscalabilityelement {
+    width: 280px;
+}
+
+.engagementelement {
+    width: 33.3%;
+}
+
+
+.mainengagementchannels {
+    width: 280px;
+}
+
+.learnmore {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.learn {
+    padding-top: 20px;
+}
+
+.ourelement {
+    background-color: white;
+    width: 700px;
+    text-align: left;
+    margin-left: 400px;
+    border: 2px dashed black;
+    margin-top: 30px;
+
+}
+
+.atwhen{
+    font-size: small; 
+    padding: 20px;
+   
+}
+
+.atwhen2 {
+    font-size: small; 
+    padding: 20px;
+    padding-left: 420px;
+}
+
+.ourwhen {
+    font-size: 20px;
+    font-weight:lighter ;
+    text-align: center;
+    padding-top: 20px;   
+}
+
+.ourwhen2 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 60px; 
+}
+
+.contactbutton2 {
+    display: flex;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+.contactbutton2 :hover {
+    transform: scale(1.1);
+}
+
+.elementcenter2 {
+    text-align: center;
+}
+
+.atwhen3 {
+    font-size: small; 
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.flex1 {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    /* margin-left: 100px; */
+    display: flex;
+    justify-content: center;
+}
+
+.globalflex1 {
+    width: 30%;
+}
+
+.global{
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.globaltext {
+    padding-top: 15px;
+}
+
+.coloradoflex1 {
+    width: 30%;
+}
+
+.colorado {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.coloradotext {
+    padding-top: 15px;
+}
+
+.floridaflex1 {
+    width: 30%;
+}
+
+.florida {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.floridatext {
+    padding-top: 15px;
+}
+
+.flex2 {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    /* padding-left: 200px; */
+    display: flex;
+    justify-content: center;
+}
+
+.canadaflex2 {
+    width: 30%;
+}
+
+.canada {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.canadatext {
+    padding-top: 15px;
+}
+
+.belizeflex2 {
+    width: 30%;
+}
+
+.belize {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.belizetext {
+    padding-top: 15px;
+}
+
+.indiaflex2 {
+    width: 30%;
+}
+
+.india {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.indiatext {
+    padding-top: 15px;
+}
+
+.flex3 {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    /* padding-left: 200px; */
+    display: flex;
+    justify-content: center;
+}
+
+.phillipinesflex3 {
+    width: 30%;
+}
+
+.phillipines {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.phillipinestext {
+    padding-top: 15px;
+}
+
+.unitedkingdomflex3 {
+    width: 30%;
+}
+
+.unitedkingdom {
+    color: rgb(207, 29, 29);
+    font-weight: 600;
+}
+
+.unitedkingdomtext {
+    padding-top: 15px;
+}
+
+.award {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.calabrio-2019 {
+    height: 100px;
+}
+
+.calabrio-2018 {
+    height: 100px;
+}    
+
+.fortune-top-service-leaders-award {
+    height: 100px;
+}
+
+.awardstext {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.customersuccessstory {
+    font-size: 20px;
+}
+
+.study2 {
+    font-size: 25px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.study3 {
+    padding-top: 10px;
+}
+
+.readbutton {
+    font-size: larger;
+    background-color: white;
+    padding: 10px;
+    border: 10px thin black;
+}
+
+.hoverreadbutton {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.hoverreadbutton :hover {
+    color: white;
+    background-color: black;
+}
+
+.case1 {
+    padding: 20px;
+    padding-left: 100px;
+}
+
+.insidecontentindustryinsights {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.textinsidecontentindustryinsights{
+    padding-left: 30px;
+}
+
+.colorinsidecontentindustryinsights {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.contentindustryinsights {
+    padding-left: 100px;
+}
+
+.thetextinsidecontentindustryinsights {
+    padding-top: 20px;
+}
+
+.imageinsidecontentindustryinsights {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.choice {
+    display: flex;
+}
+
+/* .productinfo {
+    display: flex;
+    justify-content: ;
+} */
+
+.product1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 250, 250);
+}
+
+.product2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 250, 250);
+}
+
+.productinfo {
+    font-size: 30px;
+}
+
+.downloadbutton {
+    padding-top: 200px;
+    border: 10px thick black;
+   
+}
+    
+
+.downloadbtn {
+    font-size: 20px;
+    padding: 20px;
+   
+}
+
+.downloadbutton :hover {
+    color: white;
+    background-color: black;
+}
+
+.downloadbtn2 {
+    text-decoration: none;
+    color: black;
+}
+
+.greynav1 {
+    display: flex;
+    padding-left: 100px;
+    float: left;
+    padding-top: 50px;
+}
+
+.greydec1 {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.contactbutton1 {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(207, 29, 29);
+    color: white;
+}
+
+.radlogo1 {
+    width: 200px;
+    padding-top: 35px;
+}
+
+.firstnavlogo1 {
+    width: 20px;
+    height: 50px;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    object-fit: cover;
+    padding-top: 20px;
+}
+
+.footer {
+    background-color: rgb(219, 208, 208);
+    display: flex;
+    padding: 40px;
+    height: 80px;
+}
